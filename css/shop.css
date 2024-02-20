@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+    position: static;
+    height: fit-content;
+    font-size: 26px;
+    background-color: #401519;
+}
+
+.bar {
+    display: flex;
+}
+
+.bar-logo {
+    flex-grow: 2;
+    height: fit-content;
+}
+
+.bar-logo ul {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.bar-links {
+    flex-grow: 1;
+}
+
+.bar-links ul {
+    display: flex;
+
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #F5FFF6;
+}
+
+.bar li {
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .bar {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        margin: 0;
+    }
+
+    .bar-logo {
+        width: 100%;
+    }
+
+    .bar-links {
+        width: 100%;
+    }
+
+    .bar-logo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .bar-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    background-color: #313f49;
+    padding: 10px;
+}
+
+.grid-container> .img1 {
+    background-image: url(../img/pexels-cottonbro-studio-4098369.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container> .img2 {
+    background-image: url(../img/pexels-eric-mufasa-1350789.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container> .img3 {
+    background-image: url(../img/pexels-esteban-santiago-gonzalez-12269763.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container> .img4 {
+    background-image: url(../img/pexels-huseyn-kamaladdin-667838.jpg);
+    text-align: center;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container> .img5 {
+    background-image: url(../img/pexels-ingo-joseph-609768.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.grid-container> .img6 {
+    background-image: url(../img/pexels-medhat-ayad-447592.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container> .img7 {
+    background-image: url(../img/pexels-pixabay-276583.jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container> .img8 {
+    background-image: url(../img/pexels-pixabay-279645.jpg);
+
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container> .img9 {
+    background-image: url(../img/pexels-mali-maeder-112474\ \(1\).jpg);
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #F5FFF6;
+}
+.boton {
+    background-color: #401519;
+    border: #131313 solid 1px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+        background-color: #313f49;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        background-color: #313f49;
+        padding: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-footer {
+    width: 100%;
+    background-color: #401519;
+    position: static;
+    font-family: sans-serif;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    color: #F5FFF6;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    color: #F5FFF6;
+}
+
+.container-footer li {
+    list-style: none;
+    margin: 10px;
+}
