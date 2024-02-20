@@ -82,25 +82,8 @@ li a {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
-    height: max-content;
+    height: 800px;
     background-color: #131313;
     overflow: auto;
     width: 100%;

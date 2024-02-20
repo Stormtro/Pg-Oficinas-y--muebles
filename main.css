@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -14,7 +13,6 @@ body {
     font-size: 26px;
     background-color: #401519;
 }
-
 .bar {
     display: flex;
 }
@@ -53,9 +51,6 @@ li a {
     list-style: none;
     margin: 10px;
 }
-
-
-
 @media screen and (max-width: 600px) {
     .bar {
         position: static;
@@ -87,80 +82,38 @@ li a {
         width: 100%;
     }
 }
-
-
-
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    gap: 10px;
-    background-color: #313f49;
-    padding: 10px;
-}
-.img-global{
-
-    font-size: 30px;
+.container {
+    height: 800px;
+    background-color: #131313;
+    overflow: auto;
     width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
+    border: #0D0D0D solid;
+    color: #8C8987;
+    font-size: 28px;
     text-align: center;
-    align-items: center;
-    justify-content: end;
-}
-.grid-container> .img1 {
-    background-image: url(../img/pexels-cottonbro-studio-4098369.jpg);
-}
-.grid-container> .img2 {
-    background-image: url(../img/pexels-eric-mufasa-1350789.jpg);
- 
 }
 
-
-.grid-container> .img3 {
-    background-image: url(../img/pexels-esteban-santiago-gonzalez-12269763.jpg);
-
+.img-background {
+    background-image: url(img/pex.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-
-.grid-container> .img4 {
-    background-image: url(../img/pexels-huseyn-kamaladdin-667838.jpg);
-
-}
-
-
-.grid-container> .img5 {
-    background-image: url(../img/pexels-ingo-joseph-609768.jpg);
-
-}
-
-
-
-.grid-container> .img6 {
-    background-image: url(../img/pexels-medhat-ayad-447592.jpg);
-
-}
-
-.grid-container> .img7 {
-    background-image: url(../img/pexels-pixabay-276583.jpg);
-
-}
-.grid-container> .img8 {
-    background-image: url(../img/pexels-pixabay-279645.jpg);
-
-}
-.grid-container> .img9 {
-    background-image: url(../img/oooo.jpg);
-}
 a {
     text-decoration: none;
     color: #F5FFF6;
+}
+
+.section1 {
+    text-align: center;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    align-items: center;
 }
 .boton {
     background-color: #401519;
@@ -171,63 +124,6 @@ a {
     border-radius: 30px;
     margin-bottom: 20px;
 }
-@media screen and (max-width: 600px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto ;
-        gap: 10px;
-        background-color: #313f49;
-        padding: 10px;
-    }
-    
-}
-@media screen and (max-width: 300px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto ;
-        gap: 10px;
-        background-color: #313f49;
-        padding: 10px;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-footer {
     width: 100%;
     background-color: #401519;

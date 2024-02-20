@@ -92,39 +92,76 @@ li a {
 
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    background-color: #313f49;
+    padding: 10px;
+}
+.img-global{
 
-.container {
-    height: max-content;
-    background-color: #131313;
-    overflow: auto;
+    font-size: 30px;
     width: 100%;
-    border: #0D0D0D solid;
-    color: #8C8987;
-    font-size: 28px;
-}
-
-.img-background {
-    background-image: url(../img/pex.jpg);
+    height: 500px;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+.grid-container> .img1 {
+    background-image: url(img/pexels-cottonbro-studio-4098369.jpg);
+}
+.grid-container> .img2 {
+    background-image: url(img/pexels-eric-mufasa-1350789.jpg);
+ 
 }
 
+
+.grid-container> .img3 {
+    background-image: url(img/pexels-esteban-santiago-gonzalez-12269763.jpg);
+
+}
+
+
+.grid-container> .img4 {
+    background-image: url(img/pexels-huseyn-kamaladdin-667838.jpg);
+
+}
+
+
+.grid-container> .img5 {
+    background-image: url(img/pexels-ingo-joseph-609768.jpg);
+
+}
+
+
+
+.grid-container> .img6 {
+    background-image: url(img/pexels-medhat-ayad-447592.jpg);
+
+}
+
+.grid-container> .img7 {
+    background-image: url(img/pexels-pixabay-276583.jpg);
+
+}
+.grid-container> .img8 {
+    background-image: url(img/pexels-pixabay-279645.jpg);
+
+}
+.grid-container> .img9 {
+    background-image: url(img/oooo.jpg);
+}
 a {
     text-decoration: none;
     color: #F5FFF6;
 }
-
-.section1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-.text-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .boton {
     background-color: #401519;
     border: #131313 solid 1px;
@@ -134,6 +171,52 @@ a {
     border-radius: 30px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+        background-color: #313f49;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        background-color: #313f49;
+        padding: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
